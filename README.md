@@ -10,14 +10,11 @@
    - [Caching requests](#Caching-requests)
    - [Stage changing](#Stage-changing)
 
-This project implements [PBFT(Practical Byzantine Fault Tolerance)](https://pmg.csail.mit.edu/papers/osdi99.pdf) protocol and integrates into [Substrate framework](https://substrate.io/) as a finality gadget.
+This project implements [PBFT(Practical Byzantine Fault Tolerance)](https://pmg.csail.mit.edu/papers/osdi99.pdf) protocol and integrates it into [Substrate framework](https://substrate.io/) as a finality gadget.
 
-**Build**
+**Build & Run**
 ```shell
 cargo build --release
-```
-**Run**
-```shell
 cargo run --release -- --dev
 ```
 
