@@ -1,0 +1,11 @@
+[profile.release]
+panic = 'unwind'
+
+[workspace]
+members = [
+    'node',
+    'pallets/*',
+    'runtime',
+    'sc-finality-pbft',
+    'consensus-pbft',
+]
